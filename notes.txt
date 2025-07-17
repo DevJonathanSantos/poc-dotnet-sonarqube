@@ -1,0 +1,16 @@
+Config SonarQube
+
+dotnet tool install --global dotnet-sonarscanner
+dotnet tool update --global dotnet-sonarscanner
+
+dotnet sonarscanner --version
+
+No seu .csproj (do projeto de testes), adicione:
+<PropertyGroup>
+  <DebugType>full</DebugType>
+  <CollectCoverage>true</CollectCoverage>
+  <CoverletOutputFormat>opencover</CoverletOutputFormat>
+</PropertyGroup>
+
+chmod +x sonar-analyze.sh
+./sonar-analyze.sh

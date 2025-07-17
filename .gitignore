@@ -1,0 +1,60 @@
+## Build results
+bin/
+obj/
+out/
+
+## Test Results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## SonarQube
+.sonarqube/
+coverage.opencover.xml
+coverage.cobertura.xml
+coverage.xml
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider
+.idea/
+
+## VS Code
+.vscode/
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Logs
+*.log
+
+## OS files
+.DS_Store
+Thumbs.db
+
+## Other tools
+*.dbmdl
+*.bak
+*.sql
+*.psess
+*.vsp
+*.vspscc
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# dotenv
+.env
+.env.*
