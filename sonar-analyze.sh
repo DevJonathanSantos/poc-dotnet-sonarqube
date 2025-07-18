@@ -6,7 +6,7 @@
 # ===============================
 
 # Configurações
-SONAR_TOKEN="squ_a1cccac9d628f3b50fa289434c70803310a061f9"
+SONAR_TOKEN="squ_982786a4a47f06c380fd8111e7ec981a72ba48de"
 SONAR_HOST="http://localhost:9000"
 PROJECT_KEY="PocSonar"
 SONAR_SCANNER="$HOME/.dotnet/tools/dotnet-sonarscanner"

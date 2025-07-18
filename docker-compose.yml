@@ -16,6 +16,8 @@ services:
   db:
     image: postgres:13
     container_name: sonardb
+    ports:
+      - "5432:5432" # <--- esta linha é essencial    
     environment:
       - POSTGRES_USER=sonar
       - POSTGRES_PASSWORD=sonar
